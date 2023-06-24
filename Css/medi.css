@@ -1,0 +1,121 @@
+@media (max-width: 1150px) {
+    .nav {
+        display: none;
+    }
+    .burger {
+        display: block;
+    }
+    .open {
+        display: block;
+        left: 0;
+    }
+    .header__info {
+        margin-left: 65px;
+    }
+    .features {
+        background-color: inherit;
+    }
+    .features__wrep {
+       display: grid;
+       grid-template-columns: repeat(3, 1fr);
+       gap: 15px;
+        text-align: center;
+        
+    }
+    .features__info {
+        max-width: 340px;
+        height: 160px;
+        background-color: #F5F5F5;
+        display: flex;
+        flex-direction: column;
+        padding: 25px ;
+    }
+    .features__info {
+
+    }
+    .tavars__wrep {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+   .tavars__content {
+     max-width: 600px;
+   }
+    .nuws__wrep {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .servers__wrep {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        margin-bottom: 40px;
+    }
+
+    .footer__wrep {
+       display: grid;
+       grid-template-columns: 1fr;
+       gap: 20px;
+    }
+    .subscribe__wrep {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .subscribe__input {
+        width: 100%;
+    }
+    .subscribe__nuws,
+    .subscribe__phone {
+        display: none;
+    }
+    .catalog__content-wrep {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .catalog__wrep {
+        flex-wrap: wrap;
+    }
+    .catalog__object,
+    .catalog__foftovamer {
+        width: 100%;
+    }
+}
+
+@media (max-width: 770px) {
+    .nuws__wrep {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .features__wrep {
+    grid-template-columns: repeat(2, 1fr);
+    }
+    .features__info {
+        width: 200px;
+    }
+    .catalog__text {
+        width: 335px;
+    }
+    .catalog__btn {
+        flex-wrap: wrap;
+    }
+    .tavars__wrep {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+    }
+    .servers__text {
+        width: 350px;
+    }
+    .servers__wrep {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 485px ) {
+    .features__wrep {
+        grid-template-columns: 1fr;
+        gap: 0;
+       
+    }
+    .features__info {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
